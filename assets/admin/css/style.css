@@ -1,0 +1,58 @@
+.tnw_type_post_s {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.tnw_type_post_s label {
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+.tnw_type_post_s input[type="radio"] {
+    margin-right: 5px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#cat_post {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 14px;
+    color: #333;
+}
+
+.postbox {
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    background: #fff !important;
+    box-shadow: none !important;
+}
+
+.postbox h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    padding: 10px 15px;
+    margin: 0;
+    background: #f1f1f1;
+    border-radius: 8px 8px 0 0;
+}
+
+.inside {
+    padding: 15px !important;
+}
+#sms-form-section{
+    display:none;
+}
+#mega_menu_section{
+    display:none;
+}
