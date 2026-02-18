@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: ورود یار | Worod Yaar
-Plugin URI: http://mahdidavoodi.ir/worodyaar
+Plugin URI: http://ShanulWp.ir/worodyaar
 Description: افزونه‌ای حرفه‌ای برای مدیریت ثبت‌نام و ورود کاربران با فرم‌های سفارشی، تأیید پیامکی، بازیابی رمز عبور، و پنل تنظیمات اختصاصی.
 Author: Mahdi Davoodi
 Version: 1.0.0
