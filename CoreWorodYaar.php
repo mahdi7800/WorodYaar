@@ -148,22 +148,28 @@ class CoreWorodYaar {
 		$file_name_footer_auth          = 'footer-auth.php';
 		$file_name_login_register       = 'login-register.php';
 		$file_name_password_recovery    = 'password-recovery.php';
-        $file_content_header_auth = '<!doctype html>
-<html ' . get_language_attributes() . '>
+        $file_content_header_auth = <<<'PHP'
+<?php
+/**
+ * Header Auth Template
+ */
+?><!doctype html>
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
-    <title>' . get_bloginfo("name") . '</title>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title><?php bloginfo("name"); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    ' . wp_head() . '
+    <?php wp_head(); ?>
 </head>
-<body ' . get_body_class() . '>';
-		$file_content_footer_auth = '<?php wp_footer(); ?></body></html>';
+<body <?php body_class(); ?>>
+PHP;
+		$file_content_footer_auth = '<?php wp_footer(); ?></body></html><!-- Theme Developed By Mahdi Davodi | https://ShanulWp.ir | Date : 2/18/2026 -->';
         $file_content_login_register = '<?php
 /*
 Template Name: ثبت نام و ورود به وب سایت
 */
-if ( !is_user_logged_in() ) {
+if ( is_user_logged_in() ) {
     wp_redirect( home_url() );
     exit;
 } else {
@@ -176,9 +182,13 @@ if ( !is_user_logged_in() ) {
 /*
 Template Name: فراموشی رمز عبور
 */
-get_header("auth");
+if ( is_user_logged_in() ) {
+    wp_redirect( home_url() );
+    exit;
+}else{get_header("auth");
 echo do_shortcode("[wy-short-code-password-recovery]");
 get_footer("auth");
+}
 ?>';
 		if ( ! is_file( $file_name_header_auth ) && ! file_exists( $file_name_header_auth ) ) {
 			$create_file_header_auth = fopen( $theme_directory_path . '/' . $file_name_header_auth, 'w+' );
@@ -263,6 +273,7 @@ get_footer("auth");
         flush_rewrite_rules();
 
     }
+
 }
 
 $coreWorodYaar = new CoreWorodYaar();
