@@ -29,12 +29,34 @@
         <!-- آیکون‌های شبکه‌های اجتماعی -->
         <div class="uk-margin-top uk-text-center">
             <a href="https://x.com/d_mahdi47?s=21&t=pX4cCB5VPUGyO1KmoExvuQ" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
-            <a href="https://www.instagram.com/d_mahdi47" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
+            <a href="https://www.instagram.com/d_mahdi47?igsh=MWd5aDRldDV3ZWhtZQ%3D%3D&utm_source=qr" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
             <a href="https://github.com/mahdi7800" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
             <a href="https://www.linkedin.com/in/mahdi-davoudi-b3754a1b4" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="linkedin"></a>
+            <a href="mailto:mdavoudi47@shanulwp.ir" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="mail"></a>
+            <a href="https://shanulwp.ir/" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="world"></a>
         </div>
 
-        <!-- لیست امکانات پلاگین -->
+            <div class="uk-alert uk-alert-primary" uk-alert>
+                <button class="uk-alert-close uk-icon uk-close" type="button" uk-close="" aria-label="Close"><svg width="14" height="14" viewBox="0 0 14 14"><line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg></button>
+                <p class="uk-text-bold uk-margin-remove-bottom">سپاس و قدردانی</p>
+                <hr class="uk-divider-small">
+                <p class="uk-text-small">
+                    این پلاگین توسط :<span class="uk-text-bold uk-text-danger">شرکت مهندسی شانول وردپرس</span> توسعه داده شده است.
+                    از تمامی کاربران گرامی که از این محصول استفاده می‌کنند، صمیمانه سپاس‌گزاریم.
+                </p>
+            </div>
+            <div class="uk-child-width-1-1@s uk-text-center" uk-grid>
+                <div>
+                    <div class="uk-background-secondary uk-light uk-padding uk-panel uk-border-rounded">
+                        <p class="uk-h4">در صورت رضایت از این پروژه، می‌توانید با حمایت مالی کوچک، ما را در ادامه توسعه و ارائه محتوای باکیفیت تر یاری دهید.
+                            سپاس از همراهی شما 🌱</p>
+                        <a class="uk-button uk-button-danger uk-border-rounded" href="https://daramet.com/d_mahdi47?webintent&donate=100000&message=thanks" >  ما را حمایت کنید ☕</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- لیست امکانات پلاگین -->
         <div class="uk-margin-large-top">
             <h3 class="uk-heading-divider">امکانات کلیدی ورود یار</h3>
             <ul class="uk-list uk-list-bullet">
@@ -63,24 +85,31 @@
                 </li>
 
                 <li>
-                    <strong>2. فعال‌سازی ورود با موبایل:</strong>
+                    <strong>1. افزودن فراموشی رمز عبور:</strong>
+                    در هر برگه یا نوشته کافیست شورت‌کد
+                    <code>[wy-short-code-password-recovery]</code>
+                    را قرار دهید.
+                </li>
+
+                <li>
+                    <strong>3. فعال‌سازی ورود با موبایل:</strong>
                     به مسیر <code>تنظیمات → ورود یار</code> بروید و گزینه "فعال‌سازی ثبت‌نام پیامکی" را روشن کنید.
                 </li>
 
                 <li>
-                    <strong>3. تنظیمات SMS:</strong>
+                    <strong>4. تنظیمات SMS:</strong>
                     در بخش تنظیمات پلاگین، اطلاعات وب‌سرویس پیامکی (نام کاربری، رمز عبور، خط اختصاصی) را وارد کنید.
                 </li>
 
                 <li>
-                    <strong>4. تنظیم SMTP ایمیل:</strong>
+                    <strong>5. تنظیم SMTP ایمیل:</strong>
                     برای ارسال ایمیل‌های ایمن، در مسیر
                     <code>تنظیمات → ورود یار → SMTP</code>
                     اطلاعات سرور ایمیل خود را وارد کنید.
                 </li>
 
                 <li>
-                    <strong>5. سفارشی‌سازی استایل:</strong>
+                    <strong>6. سفارشی‌سازی استایل:</strong>
                     از بخش تنظیمات رنگ می‌توانید رنگ اصلی دکمه‌ها، چک‌باکس‌ها و هایلایت‌ها را تغییر دهید.
                 </li>
             </ul>
