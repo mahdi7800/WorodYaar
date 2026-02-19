@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: ورود یار | Worod Yaar
-Plugin URI: http://ShanulWp.ir/worodyaar
+Plugin URI: https://github.com/mahdi7800
 Description: افزونه‌ای حرفه‌ای برای مدیریت ثبت‌نام و ورود کاربران با فرم‌های سفارشی، تأیید پیامکی، بازیابی رمز عبور، و پنل تنظیمات اختصاصی.
 Author: Mahdi Davoodi
 Version: 1.0.0
-License: GPLv2 or later
-Author URI: http://ShanulWp.ir
+Author URI: https://github.com/mahdi7800
+ License: GPL-2.0+
 */
 
 defined( 'ABSPATH' ) || exit();
